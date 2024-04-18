@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kata-site</title>
+</head>
+<body class="body">
+    <!-- переписываю код
+    <header class="top-bar">
+        <button class="button burger-button burger-button--offset">
+            <img src="./imgs/burger.svg" alt="" class="button__img">
+        </button>
+        <a href="#" class="logo">
+            <img src="./imgs/logo.png" alt="logo" class="logo__img">
+        </a>
+        <ul class="buttons-list buttons-list--mobile-hidden buttons-list--top-bar list-reset">
+            <li class="buttons-list__item">
+                <button class="button">
+                    <img src="./imgs/call.svg" alt="" class="button_img">
+                </button>
+            </li>
+            <li class="buttons-list__item">
+                <button class="button">
+                    <img src="./imgs/chat.svg" alt="" class="button_img">
+                </button>
+            </li>
+            <li class="buttons-list__item">
+                <button class="button">
+                    <img src="./imgs/profile.svg" alt="" class="button_img">
+                </button>
+            </li>
+        </ul>
+        <ul class="buttons-list buttons-list--top-bar buttons-list--divider list-reset">
+            <li class="buttons-list__item">
+                <button class="button">
+                    <img src="./imgs/repair.svg" alt="" class="button__img">
+                </button>
+            </li>
+            <li class="buttons-list__item">
+                <button class="button">
+                    <img src="./imgs/checkstatus.svg" alt="" class="button__img">
+                </button>
+            </li>
+        </ul>
+    </header>
+    -->
+    <main class="main">
+        <!--
+        <div class="services">
+            <section class="services__top-bar">
+                <h1 class="services__title">Услуги и сервисы</h1>
+                <ul class="buttons-list buttons-list--services-top-bar list-reset">
+                    <li class="buttons-list__item">
+                        <button class="button">
+                            <span class="button__text">
+                                Оставить заявку
+                            </span>
+                            <img src="./imgs/repair.svg" alt="" class="button__img">
+                        </button>
+                    </li>
+                    <li class="buttons-list__item">
+                        <button class="button">
+                            <span class="button__text">
+                                Статус ремонта
+                            </span>
+                            <img src="./imgs/checkstatus.svg" alt="" class="button__img">
+                        </button>
+                    </li>
+                </ul>
+            </section>
+            <div class="services__content">
+                <span class="services__text">
+                  Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+
+                  <span class="mobile-hidden">
+                       Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+                       <span class="tablet-hidden">
+                           , что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </span>
+                    </span>
+                </span>
+                <button class="button extended-button">
+                    Читать далее
+                </button>
+                <img src="./imgs/services.png" alt="" class="services__img">
+            </div>
+        </div>
+        -->
+        <div class="brands">
+            <header class="brands-header">
+                <h2 class="brands-header__title">Ремонт техники различных брендов</h2>
+            </header>
+
+            <!--
+                Я не понял как переключить отображение слайдера на мобилке не дублируя разметку
+            -->
+            <div class="swiper">
+                <ul class="brands-list swiper-wrapper list-reset">
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/lenovo.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/samsung.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/apple.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/viewSonic.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/bosch.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/hp.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/acer.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <button class="brands-button button">
+                            <img src="./imgs/sony.png" alt="" class="brands-button__brand-img">
+                            <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                        </button>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <ul class="brands-list brands-list--mobile-hidden list-reset mobile-hidden">
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/lenovo.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/samsung.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/apple.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/viewSonic.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/bosch.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/hp.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/acer.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/sony.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/lenovo.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/samsung.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/apple.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/viewSonic.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/lenovo.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/samsung.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/apple.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+                <li class="brands__item">
+                    <button class="brands-button button">
+                        <img src="./imgs/viewSonic.png" alt="" class="brands-button__brand-img">
+                        <img src="./imgs/go.svg" alt="" class="brands-button__go-img">
+                    </button>
+                </li>
+            </ul>
+            <button type="button" class="button extended-button brands__extended-button brands__extended-button--collapsed">
+                Показать все
+            </button>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
