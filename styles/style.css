@@ -192,6 +192,29 @@
 
 .swiper {
     height: 110px;
+    position: relative;
+}
+
+.swiper::before {
+    background: linear-gradient(90deg,#f8f8f8 16.836%,transparent);
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    z-index: 200;
+}
+
+.swiper::after {
+    background: linear-gradient(270deg,#f8f8f8 16.836%,transparent);
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    z-index: 200;
 }
 
 .brands-list--mobile-hidden{
