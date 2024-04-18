@@ -229,8 +229,10 @@
     .brands-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+	    align-items: center;
         row-gap: 16px;
+        column-gap: 32px;
         padding: 0 16px;
         margin-bottom: 24px;
     }
@@ -292,20 +294,8 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1088px) {
     .brands__item:nth-child(-n + 8) {
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 1232px) {
-    .brands__item:nth-child(-n + 10) {
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 1472px) {
-    .brands__item:nth-child(-n + 12) {
         display: flex;
     }
 }
